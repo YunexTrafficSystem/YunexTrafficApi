@@ -1,0 +1,40 @@
+{
+  "name": "yunex-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "jest --verbose src/api/tests"
+  },
+  "keywords": [],
+  "author": "Miguel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "jsonwebtoken": "^8.5.1",
+    "mime-lite": "^1.0.2",
+    "mongoose": "^6.4.3",
+    "morgan": "^1.10.0",
+    "pactum": "^3.1.13",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.30.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.8.2",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^28.1.3",
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
+  }
+}
